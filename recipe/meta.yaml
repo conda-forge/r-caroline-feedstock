@@ -1,4 +1,4 @@
-{% set version = "0.9.2" %}
+{% set version = "0.9.9" %}
 
 {% set posix = 'm2-' if win else '' %}
 
@@ -11,11 +11,11 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/caroline_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/caroline/caroline_{{ version }}.tar.gz
-  sha256: 04dfc574b5f763b8c09e57b68657b8ae7e6aae36083dd71819c96f971d660297
+  sha256: 93867fa8130093670108daa46089a1ea92a1f44b2a674e4a15224eea95cf8f7a
 
 build:
   noarch: generic
-  number: 1
+  number: 0
 
   rpaths:
     - lib/R/lib/
